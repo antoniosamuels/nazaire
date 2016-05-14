@@ -1,0 +1,34 @@
+#BackToTop {
+    background-color: #001843;
+    bottom: 0;
+    color: #EEEEEE;
+    display: none;
+    font: 14px Arial,Helvetica;
+    margin: 0;
+    padding: 4px;
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+	
+	
+
+#BackToTop span
+{
+    display: block;
+    padding: 4px 15px;
+    cursor: pointer;
+	
+	/*********************/
+	/** CSS3 properties **/
+	/*********************/
+	/** Background gradient **/
+    background-color: #001843;
+/*    background-image: -moz-linear-gradient(#d4463c, #aa2618);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#d4463c), to(#aa2618));
+    background-image: -webkit-linear-gradient(#d4463c, #aa2618);
+    background-image: -o-linear-gradient(#d4463c, #aa2618);
+    background-image: -ms-linear-gradient(#d4463c, #aa2618);
+    background-image: linear-gradient(#d4463c, #aa2618);*/
+}

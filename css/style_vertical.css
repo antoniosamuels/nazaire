@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+	font-family: Georgia;
+	font-size: 18px;
+	font-style:normal;
+	letter-spacing: -1px;
+	background: #031c3b url(../images/backtop_01.jpg) no-repeat;
+}
+
+.headerlogo {
+	background:#fff;
+	width:100%;
+	height:95px;
+}
+
+.containerhold {
+			margin: 275px auto 0;
+			max-width:800px;
+			min-width:60%;
+			padding:15px;
+		}
+		
+.containerfooter {
+			margin:0px auto;
+			width:800px;
+			min-height: 350px;
+		}
+		
+.section{
+	margin: 0px auto 0px auto;
+	height: auto;
+	width: 100%;
+}
+.section h2{
+	margin: 20px 0px 50px 0;
+}
+.section p {
+    margin: 20px 0 0 0;
+	width:800px;
+}
+.black{
+    color:#fff;
+}
+.white{
+    color:#000;
+    background:#fff url(../images/white_vert.jpg) repeat-x bottom left;
+	padding-top: 20px;
+	padding-bottom: 9%;
+}
+
+.section ul {
+	height: 26px;
+	list-style: none outside none;
+	margin: 155px 0 0 35px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-khtml-border-radius: 12px;
+	border-radius: 12px;
+	text-transform: uppercase;
+}
+.black ul li{
+    float:left;
+    padding:2px;
+    margin:5px;
+    color:#808285;
+}
+.black ul li a{
+    display:block;
+    color:#002d62;
+}
+.black ul li a:hover{
+    text-decoration:none;
+    color:#72ccd2;
+}
+.white ul li{
+    float:left;
+    padding:5px;
+    margin:5px;
+    color:#aaa;
+}
+.white ul li a{
+    display:block;
+    color:#808285;
+}
+.white ul li a:hover{
+    text-decoration:none;
+    color:#000;
+}
+
+.topbanner {
+    background: url("../images/topbanner_02.png") no-repeat scroll 0 0 transparent;
+    height: 530px;
+    margin: auto;
+    width: 700px;
+}
+
+.servicetabs {
+	height:105px;
+	max-width:785px;
+	min-width:60%;
+	padding:15px;
+}
+
+.imgservice {
+	float:left;
+}
+
+hr {
+  border: 1px solid #002d62;
+  width: 100%;
+  margin:35px 0 35px;
+}
+/*Contact Form*/
+
+.contactform {
+	width:785px;
+	float:left;
+}
+
+.contactform_address {
+    float: right;
+    margin: -205px 0;
+    width: 412px;
+}
+
+.form1 {
+    height: 35px;
+    margin: 3px 0;
+    width: 340px;
+	border-radius:5px;
+	color:#fff;
+	background-color:#001843;
+	border:#333;
+}
+
+.form2 {
+    background-color: #001843;
+    border: medium none #333333;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    float: right;
+    height: 157px;
+    width: 410px;
+	margin: 3px 0;
+}
+
+.submit1 {
+	width:85px;
+	height:35px;
+	border:0px;
+	background-color:#ccc;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+
+
+
+/*Font usage*/
+
+h1.fontface {font: 30px/38px 'TeXGyreAdventorRegular', Arial, sans-serif;letter-spacing: 0; margin: 10px 0; margin-bottom:0px;}
+
+p.style1 {font: 14px/20px 'TeXGyreAdventorRegular', Arial, sans-serif; letter-spacing: 0.2px; width:100%;}
+p.style5 {font: 11px/20px 'TeXGyreAdventorRegular', Arial, sans-serif; letter-spacing: 0.2px; color:#999;}
+p.style2 {font: 14px/20px 'TeXGyreAdventorItalic', Arial, sans-serif;letter-spacing: 0.2px; width:100%;}
+p.style3 {font: 18px/27px 'TeXGyreAdventorBold', Arial, sans-serif;}
+p.style4 {font: 18px/27px 'TeXGyreAdventorBoldItalic', Arial, sans-serif;}
